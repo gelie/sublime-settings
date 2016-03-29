@@ -1,0 +1,14 @@
+{
+    "auto_complete_triggers": [
+        // Reference https://github.com/srusskih/SublimeJEDI#autocomplete-on-dot
+        {"selector": "source.python", "characters": "."}
+    ],
+
+    "keymap": [  // Cf. Python.sublime-keymap
+        // Anaconda (reference: http://damnwidget.github.io/anaconda/anaconda_settings)
+        { "keys": ["alt+shift+g"], "command": "anaconda_goto", "args" : {} },
+        { "keys": ["super+f"], "command": "anaconda_find_usages", "args" : {} },
+        { "keys": ["ctrl+i"], "command": "anaconda_doc", "args" : {} },
+        { "keys": ["super+r"], "command": "anaconda_auto_format", "args" : {} }
+    ]
+}
